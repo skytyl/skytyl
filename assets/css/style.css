@@ -1233,7 +1233,7 @@ padding-top: 50px;
   font-weight: 600;
 }
 .contact .php-email-form .error-message br + br {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .contact .php-email-form .sent-message {
   display: none;
