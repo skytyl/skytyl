@@ -341,8 +341,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #hero .logo2 {
-  height: 70%;
-  width: 70%;
+  height: 60%;
+  width: 60%;
 }
 
 
@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
   #hero {
     height: 100vh;
   }
