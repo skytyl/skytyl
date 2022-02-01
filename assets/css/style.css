@@ -417,6 +417,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 60px;
+  margin-top: 55px;
 }
 .section-title h2 {
   font-size: 32px;
@@ -477,7 +478,6 @@ section {
   background: #fff;
  
 }
-
 
 .about .row{
 padding-top: 50px;
@@ -638,6 +638,26 @@ padding-top: 50px;
     opacity: 0;
   }
 }
+
+.about .about-slider img {
+  width: 100%;
+}
+.about .about-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.about .about-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #94c045;
+}
+.about .about-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #94c045;
+}
+
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -1931,56 +1951,3 @@ padding-top: 50px;
 }
 
 
-/*--------------------------------------------------------------
-# Image Slider Details
---------------------------------------------------------------*/
-.image-details {
-  padding-top: 40px;
-}
-.image-details .image-details-slider img {
-  width: 100%;
-}
-.image-details .image-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.image-details .image-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #94c045;
-}
-.image-details .image-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #94c045;
-}
-.image-details .image-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(60, 65, 51, 0.08);
-}
-.image-details .image-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-.image-details .image-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-.image-details .image-info ul li + li {
-  margin-top: 10px;
-}
-.image-details .image-description {
-  padding-top: 30px;
-}
-.image-details .image-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.image-details .image-description p {
-  padding: 0;
-}
