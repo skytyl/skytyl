@@ -266,12 +266,12 @@
     })
   });
 
-//メインスライド
+
 var slider = new Swiper ('.gallery-slider', {
   slidesPerView: 1,
   centeredSlides: true,
   loop: true,
-  loopedSlides: 6, //スライドの枚数と同じ値を指定
+  loopedSlides: 6, 
 
   autoplay: {
     delay: 2000,
@@ -280,7 +280,7 @@ var slider = new Swiper ('.gallery-slider', {
 
 });
 
-//サムネイルスライド
+
 var thumbs = new Swiper ('.gallery-thumbs', {
   slidesPerView: 'auto',
   spaceBetween: 10,
@@ -289,11 +289,7 @@ var thumbs = new Swiper ('.gallery-thumbs', {
   slideToClickedSlide: true,
 });
 
-//3系
-//slider.params.control = thumbs;
-//thumbs.params.control = slider;
 
-//4系～
 slider.controller.control = thumbs;
 thumbs.controller.control = slider;
 
