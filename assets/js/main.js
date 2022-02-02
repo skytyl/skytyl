@@ -242,6 +242,11 @@
       delay: 5000,
       disableOnInteraction: false
     },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -261,28 +266,36 @@
     })
   });
 
+//メインスライド
+var slider = new Swiper ('.gallery-slider', {
+  slidesPerView: 1,
+  centeredSlides: true,
+  loop: true,
+  loopedSlides: 6, //スライドの枚数と同じ値を指定
 
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false
+  },
 
-    /**
-   * About slider
-   */
-     new Swiper('.about-slider', {
-      speed: 400,
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-      
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true
-      }
-    });
+});
+
+//サムネイルスライド
+var thumbs = new Swiper ('.gallery-thumbs', {
+  slidesPerView: 'auto',
+  spaceBetween: 10,
+  centeredSlides: true,
+  loop: true,
+  slideToClickedSlide: true,
+});
+
+//3系
+//slider.params.control = thumbs;
+//thumbs.params.control = slider;
+
+//4系～
+slider.controller.control = thumbs;
+thumbs.controller.control = slider;
+
 
 })()
