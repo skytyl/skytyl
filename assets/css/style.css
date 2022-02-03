@@ -346,22 +346,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#about .slogo {
-  
-  width: 20%;  
- 
-}
 
 #hero .quicklinks{
-  
-    margin: auto;
-    padding: auto;
+
     display: flex;
+    justify-content: center;
     list-style: none;
-    align-items: center;
-  
+
 
 }
+
+
+
+#hero .quicklinks li{
+padding: 0px 10px;
+}
+
+
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -499,6 +500,11 @@ section {
 
 }
 
+#about .slogo {
+  
+  width: 20%;  
+ 
+}
 
 .about .count-box {
   width: 100%;
