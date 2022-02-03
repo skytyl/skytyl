@@ -350,16 +350,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .quicklinks{
 
     display: flex;
-    justify-content: center;
+
     list-style: none;
+    gap: 20px;
+   
 
 
-}
-
-
-
-#hero .quicklinks li{
-margin: 0px 20px;
 }
 
 
