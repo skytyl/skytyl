@@ -352,7 +352,16 @@ h1, h2, h3, h4, h5, h6 {
  
 }
 
+#hero .quicklinks{
+  
+    margin: auto;
+    padding: auto;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  
 
+}
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
