@@ -346,6 +346,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+#about .slogo {
+  
+  width: 20%;  
+ 
+}
+
+
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -406,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding-bottom: 60px;
+
   overflow: hidden;
 }
 
@@ -415,15 +422,13 @@ section {
 }
 
 .section-title {
-  text-align: center;
-  padding-bottom: 60px;
-  
+  text-align: center;  
 }
 .section-title h2 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 0;
+  margin: 40px;
+  
   font-family: "Poppins", sans-serif;
   color: #646c55;
 }
@@ -474,15 +479,12 @@ section {
 --------------------------------------------------------------*/
 .about .container {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding-bottom: 15px;
+  padding:20px 15px;
   background: #fff;
-  width: 75%;
 }
 
-.about .row{
-padding-top: 50px;
 
-}
+
 .about .count-box {
   width: 100%;
 }
@@ -647,7 +649,6 @@ padding-top: 50px;
 .about .about-slider{
   height: 720px;
   
-
 }
 
 .about .about-slider .swiper-pagination .swiper-pagination-bullet {
@@ -706,7 +707,7 @@ padding-top: 50px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin: 0 10px 40px 10px;
+  margin-top: 20px;
   background: #fff;
   box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -725,9 +726,8 @@ padding-top: 50px;
   transition: 0.5s;
 }
 .services .title {
-  margin-left: 40px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   font-size: 22px;
 }
 .services .title a {
@@ -738,10 +738,8 @@ padding-top: 50px;
 }
 .services .description {
   font-size: 14px;
-  margin-left: 40px;
   line-height: 24px;
-  margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .services .center{
@@ -752,6 +750,10 @@ padding-top: 50px;
 }  
 
 
+.services .row{
+padding-bottom: 20px;
+
+}
 
 /*--------------------------------------------------------------
 # Work Process
