@@ -346,6 +346,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+#hero .marina {
+  height: 15vh;
+
+  display:inline-block;
+  text-align: left;
+  align-items:center;
+
+}
+
+
+
+
 
 #hero .quicklinks{
 
@@ -516,6 +528,8 @@ section {
   width: 20%;  
  
 }
+
+
 
 .about .count-box {
   width: 100%;
@@ -790,6 +804,11 @@ padding-bottom: 20px;
 /*--------------------------------------------------------------
 # Work Process
 --------------------------------------------------------------*/
+
+.work-process {
+margin-top: 100px;
+
+}
 .work-process .content + .content {
   margin-top: 100px;
 }
