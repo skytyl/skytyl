@@ -613,6 +613,8 @@ section {
   left: 0;
   top: -2px;
 }
+
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -826,13 +828,14 @@ padding-bottom: 20px;
 --------------------------------------------------------------*/
 
 .work-process {
-margin-top: 100px;
+margin-top: 4vh;
 }
 
 .work-process p{
   
 
-font-size: 1.2em
+font-size: 1.2em;
+text-align: justify;
 
 }
 .work-process .content + .content {
@@ -859,12 +862,13 @@ font-size: 1.2em
 }
 
 
+
 .work{
   display:block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+  margin:auto;
   width: 50%;
+
+  
 }
 
 /*--------------------------------------------------------------
