@@ -325,36 +325,51 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #222;
+  margin: 0 0 1vh 0;
+  font-size: 5vh;
+  font-weight: 700; 
+  
 }
 
 #hero h2 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 2vh;
+  line-height: 3vh;
   margin-bottom: 30px;
+  text-align: right;
 }
 
 
 
 #hero .logo2 {
-  height: 60%;
-  width: 60%;
+  height: 12vh;
+
 }
 
 
 #hero .marina {
-  height: 15vh;
-
+  
+  font-size: 2vh;
   display:inline-block;
   text-align: left;
   align-items:center;
+  vertical-align:middle;
+}
+
+#hero .marina img{
+  width: 8vh;
+
+
 
 }
 
+#hero .inline-div{ 
+  height: 100%;
+  display:inline-block;
+  vertical-align:middle;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-bottom: 3vh;
+}
 
 
 
@@ -405,6 +420,12 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
  
   }
+
+  #hero .inline-div{ 
+
+    display:block;
+  
+  }
 }
 
   @media (max-width: 768px) { 
@@ -419,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 14px;
     line-height: 18px;
-
+    text-align: center;
  
   }
   #hero .hero-container {
