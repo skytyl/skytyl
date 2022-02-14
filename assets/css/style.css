@@ -823,6 +823,14 @@ padding-bottom: 20px;
 
 }
 
+.side {
+ 
+  display: inline;
+  width:49.2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*--------------------------------------------------------------
 # Work Process
 --------------------------------------------------------------*/
