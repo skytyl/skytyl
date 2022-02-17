@@ -839,6 +839,18 @@ padding-bottom: 20px;
 margin-top: 4vh;
 }
 
+.work-process div{
+  align-items: center;
+  vertical-align: middle;
+}
+
+.work-process img{
+width: 75%;
+display:block;
+margin:auto;
+
+}
+
 
 .work-process div.row {
 
@@ -850,6 +862,7 @@ margin-top: 4vh;
   
 font-size: 1.2em;
 text-align: justify;
+
 
 }
 
@@ -873,14 +886,6 @@ text-align: justify;
   margin-bottom: 0;
 }
 
-
-.work{
-  display:block;
-  margin:auto;
-
-
-  
-}
 
 /*--------------------------------------------------------------
 # Our Skills
