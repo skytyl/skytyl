@@ -268,7 +268,7 @@ var slider = new Swiper ('.gallery-slider', {
   slidesPerView: 1,
   centeredSlides: true,
   loop: true,
-  loopedSlides: 8, 
+  loopedSlides: 34, 
 
   autoplay: {
     delay: 2000,
