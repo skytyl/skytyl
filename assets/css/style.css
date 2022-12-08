@@ -892,7 +892,7 @@ text-align: justify;
 --------------------------------------------------------------*/
 .skills {
   padding-bottom: 60px;
-  margin-bottom: 0px;
+  margin-bottom: 60px;
 }
 .skills .content h3 {
   font-weight: 700;
